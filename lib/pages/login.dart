@@ -86,10 +86,7 @@ class Login extends StatelessWidget {
                       ),
                       ElevatedButton(
                         onPressed: () {         },
-                        child: Text(
-                          "login",
-                          style: TextStyle(fontSize: 24),
-                        ),
+                        
                         style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.purple),
@@ -99,6 +96,10 @@ class Login extends StatelessWidget {
                           shape: MaterialStateProperty.all(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(27))),
+                        ),
+                        child: Text(
+                          "login",
+                          style: TextStyle(fontSize: 24),
                         ),
                       ),
                       SizedBox(
