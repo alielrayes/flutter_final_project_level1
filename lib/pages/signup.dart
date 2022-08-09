@@ -90,10 +90,7 @@ class Signup extends StatelessWidget {
                       ),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text(
-                          "Sign up",
-                          style: TextStyle(fontSize: 24),
-                        ),
+                        
                         style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.purple),
@@ -103,6 +100,10 @@ class Signup extends StatelessWidget {
                           shape: MaterialStateProperty.all(
                               RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(27))),
+                        ),
+                        child: Text(
+                          "Sign up",
+                          style: TextStyle(fontSize: 24),
                         ),
                       ),
                       SizedBox(
